@@ -1,0 +1,23 @@
+@font-face {
+    font-family: bold;
+    src: url(JosefinSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: regular;
+    src: url(JosefinSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: light;
+    src: url(JosefinSans-Light.ttf);
+}
+
+@font-face {
+    font-family: thin;
+    src: url(JosefinSans-Thin.ttf);
+}
+@font-face {
+    font-family: italic;
+    src: url(GreatVibes-italic.ttf);
+}

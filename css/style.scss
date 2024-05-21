@@ -1,0 +1,458 @@
+/*dark mode*/
+
+body {
+  background-color: white; 
+
+  #mode{
+cursor: pointer;
+position: fixed;
+
+color: white;
+  }
+}
+
+.dark-theme {
+  background-color: black; 
+  color: white;
+ 
+
+}
+
+
+/*end of dark mode*/
+
+
+
+
+.header{
+  margin-top: 10px;
+  
+  .header-inner{
+    display: flex;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -100px;
+
+  
+
+  li{
+    list-style: none;
+    padding: 50px;
+    margin-left: -50px;
+    margin-top: -40px;
+  }
+  
+  a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-family: regular;
+  }
+  a:hover{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(178, 26, 195);
+    font-family: regular;
+  }
+}
+}
+
+/*end of header*/ 
+
+
+/*hero*/
+.hero{
+   h1{
+    font-size: 35px;    
+    margin-top: 110px;
+    font-family: bold;
+   }
+
+   p{
+    font-size: 18px;
+    font-family: regular;
+
+   }
+     
+   #one{
+     background-color: purple;
+     font-size: 18px;
+     color: white;
+     margin-top: 20px;
+     border: none;
+     padding: 6px;
+     margin-bottom: 20px;
+     margin-right: 50px;
+   }
+
+   #two{
+    border-color: purple;
+    font-size: 18px;
+    color: black;
+    padding: 5px;
+    
+    
+
+   }
+
+  
+  a{
+    padding: 20px;
+    text-decoration: none;
+    
+  }
+  #pup{
+    color: purple;
+    font-family: regular;
+  }
+  #bla{
+    color: black;
+    font-family: regular;
+  } 
+  
+} 
+
+
+
+#about{
+  height: 150vh;
+
+
+  h2{
+    padding-top: 100px;
+    padding-left: 70px;
+    font-family: bold;
+   
+  }
+
+
+  p{
+    padding-top: 50px; 
+    margin-left: 20px;
+    font-family: regular;
+  }
+  button{
+    background-color: purple;
+     font-size: 18px;
+     color: white;
+    border: none;
+     margin-bottom: 20px;
+     margin-right: 50px;
+     margin-top: 70px;   
+     margin-left:10px;
+     height: 7vh;
+  }
+  #abt1{
+    width: 45%;
+    height: 55vh;
+    padding-left: 20px;
+    margin-bottom: 100px;
+    
+  }
+   #abt2{
+    width: 45%;
+    height: 55vh;
+    margin-top: 90px;    
+    padding-right: 30px;
+  
+  }
+  
+
+  #vid{
+    height: 60vh;
+    width: 80%;
+    
+  }
+  
+
+}
+
+
+#services{
+
+ padding-bottom: 80px;
+ 
+
+  h2{
+    padding-left: 70px;
+    font-family: bold;
+  }
+  #title {
+    font-size: 30px;
+    font-family: light; 
+    color: black ;
+    margin-left: 150px ;
+    margin-top: -180px;
+   }
+   .card-container {
+     display: flex;
+     justify-content: center;
+     margin-top: 50px;
+   }
+   
+   .card {
+     position:relative;
+     width: 300px;
+     height: 500px;
+     margin: 0px 10px;
+   }
+   
+   .card img {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+   }
+   .overlay2 h3{
+     text-align: center;
+     font-family: bold;
+    font-size: 20px;
+    color: white;
+    font-family: bold;
+    
+    bottom: 0;
+    margin-top: 550px;
+   }
+   
+   .overlay2 p{
+     text-align: center;
+    font-size: 10px;
+    color: white;
+    bottom: 0;
+   }
+   
+   .overlay2 {
+     position: absolute;
+     background-color: rgba(0, 0, 0, 0.358);
+     overflow: hidden;
+     width: 100%;
+     height: 100%;
+   }
+   
+   .overlay {
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     background-color: purple;
+     overflow: hidden;
+     width: 100%;
+     height: 0;
+     transition: .5s ease;
+     color: white;
+   }
+   ul {
+     list-style-type:circle;
+     margin: 20px;
+   }
+   
+   .overlay h2{
+   font-family: bold;
+   text-align: left;
+   font-size: 18px;
+   margin-left: 20px;
+   padding-top: 20px;
+   font-family: bold;
+   }
+   
+   .overlay p{
+     margin: 20px;
+     font-family: regular;
+   }
+   .overlay h4 {
+     font-size: 20px;
+     font-family: bold;
+     margin-left: 10px;
+     font-family: bold;
+   }
+   .card:hover .overlay {
+     height: 100%;
+   }
+   .overlay h5{
+     font-family: light;
+     font-size: 15px;
+     font-family: bold;
+   }
+   
+   span {
+     margin-left: 120px;
+   }
+   #top{
+     display: flex;
+   }
+   #heart{
+     width: 50px;
+     height: 50px;
+     top:0;
+     margin-left: 50px;
+   }
+   
+   .text {
+     color: white;
+     font-size: 20px;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     text-align: center;
+     font-family: regular;
+   }
+}
+
+
+
+
+#testimonials{
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+   h2{
+    padding: 5px;
+   font-size: 30px;
+   font-family: bold;
+
+   }
+  h3{
+    font-size: 20px;
+    font-family: bold;
+  }
+  p{
+    padding: 10px;
+    font-family: regular;
+  }
+
+#one{
+  width: 80%;
+  margin-top: 90px;
+}
+#two{
+  width: 80%;
+}
+
+}
+
+
+
+
+
+#as-seen{
+  height: 120vh;
+  text-align: center; 
+  
+  h2{
+    font-family: bold;
+  }
+  span{
+    font-family: italic;
+  }
+ 
+  .container{
+    padding-top: 50px;
+
+#bottom{
+  padding-top: 60px;
+  gap: 20px;
+}
+#top1{
+  padding-left: 15px;
+}
+  }
+  h3{
+  padding-top: 100px;
+  font-family: bold;
+ 
+ 
+}
+button{
+  background-color: purple;
+  font-size: 18px;
+  color: white;    
+  border: none;
+}
+}
+footer{
+  height: 40vh;
+  background-color: purple;
+  color: rgb(255, 255, 255);
+
+
+  #log{
+width: 50%;
+  }
+#icon{
+  height: 3vh;
+  width: 7%;
+  margin: 7px;
+}
+#ic{
+  height: 6vh;
+  padding: 5px;
+}
+ 
+ 
+  .col {
+padding-top: 50px;
+  }
+h3{
+  font-size: 25px;
+  text-decoration: underline;
+  font-family: bold;
+  
+
+}
+
+hr{
+  width: 50%;
+ 
+}
+
+}
+
+
+/*media queries*/
+
+/*ipad mini*/
+
+@media (max-width:768px) {
+
+    body {
+        overflow-x: hidden;
+    }
+    
+
+    #as-seen{
+      height: 120vh;
+      text-align: center; 
+      
+      
+     
+      .container{
+        padding-top: 500px;
+    
+    #bottom{
+      padding-top: 60px;
+      gap: 20px;
+    }
+    #top1{
+      padding-left: 15px;
+      
+    }
+    img{
+      width: 100%;
+      height: 50vh;
+    }
+      }
+      h3{
+      padding-top: 100px;
+     
+     
+    }
+    button{
+      background-color: purple;
+      font-size: 18px;
+      color: white;    
+      border: none;
+    }
+    }
+    
+
+  }
